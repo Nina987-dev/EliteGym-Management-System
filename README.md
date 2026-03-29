@@ -20,7 +20,7 @@ L'interface a été entièrement refondue avec un design moderne, utilisant les 
 * **Environnement** : Serveur Apache (XAMPP), phpMyAdmin.
 
 ## Sécurité et Architecture
-Dans l'optique d'une spécialisation en **Master Cybersécurité**, les points suivants ont été priorisés :
+Ce projet a été conçu avec une attention particulière portée sur la fiabilité et la structure du code :
 1.  **Prévention des Injections SQL** : Utilisation systématique de la fonction `mysqli_real_escape_string` sur l'ensemble des entrées utilisateurs.
 2.  **Architecture Modulaire** : Séparation stricte entre la logique de connexion, le traitement des données et la couche de présentation.
 3.  **Intégrité des Données** : Mise en place de clés primaires uniques et respect des contraintes d'intégrité du schéma SQL.
